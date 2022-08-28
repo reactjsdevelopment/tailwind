@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './Header';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div className="container mx-auto mb-8 px-8">
+<Header />
+<h1 className="mt-8 text-center text-3xl font-bold underline">
+  Hamburger menu in Tailwind & React
+</h1>
+</div>
   );
 }
 
